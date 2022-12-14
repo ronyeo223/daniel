@@ -7,12 +7,6 @@ def route():
    return render_template("index.html")
 
 
-@app.route("/")
-def start():
-
-
-   return render_template("index.html") 
-
 
 
 if __name__ == '__main__':
